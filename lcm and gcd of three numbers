@@ -1,0 +1,17 @@
+form math import gcd
+
+def lcm(x, y, z)
+           gcd2 = gcd(y, z)
+           gcd3 = gcd(x, gcd2)
+           lcm2 = y*z // gcd
+           lcm3 = x*lcm2 //gcd(x, lcm2)
+           return (1cm3, gcd3)
+           
+h=input("press:1 for  two nummvers LCM or \n press:2 three numbers LCM\n :")
+if h == "2":
+           x = int(input("numbers 1: "))
+           y = int(input("numbers 2: "))
+           z = int(input("numbers 3: "))
+            (res1, res2) = lcm(x,y,z))
+            print("the LCM of GCD of" + str(x) + " and "  + str(y) + " and " + s)
+           
